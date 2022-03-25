@@ -1,0 +1,402 @@
+<html lang="pl">
+<head>
+  <title> Nowe Media i Kultura Cyfrowa </title>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style6.css" rel="stylesheet" type="text/css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+
+  <!----nav!----->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-lista" aria-controls="nav-lista" aria-expanded="false" aria-label="Wyzwalacz">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      
+      <img src="https://covid19.uni.lodz.pl/wp-content/themes/covid/images/logo_ul_v_pl_rgb_achromatycze.png" alt="Logo" style="width:90px;">
+    </a>
+
+    <!-- Linki -->
+    <div class="collapse navbar-collapse" id="nav-lista">   
+      <nav class="navbar-nav">
+        <a class="nav-link" href="#O kierunku">O kierunku</a>
+<div id="java">
+        <a class="nav-link" href="#Dla Studentów" data-toggle="modal" data-target="#modal">  Dla Studentów</a>
+         
+</div>
+
+
+
+
+<!---- modal ---->
+
+<div class="modal" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalEtyk" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-dark" id="modalEtyk">Uwaga</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Treść dostępna dla zalogowanych użytkowników
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+ </div></div></div></div>
+
+
+
+<a class="nav-link" href="#karuzel">Władze Instytutu</a>
+
+       <a class="nav-link" href="#plan">Plan zajęć</a>
+        <div class="active"><a class="nav-link" href="rejestracja.html"> Rejestracja </a></div>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="podglad" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Specjalizacje
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Preview">
+            <a class="dropdown-item" href="#specjalizacje">Gry wideo</a><div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" href="#specjalizacje">Sztuka Nowych Mediów</a><div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" href="#specjalizacje">Media społeczne</a>
+          </div>
+
+
+
+
+
+      </nav>
+  
+        
+      <!-- Formularz -->
+
+            <form class="form-group-row ml-auto my-lg-0"role="search">
+            
+        <input type="text" class="form-control mr-sm-2 my-1" placeholder="Login">
+        <input type="password" class="form-control mr-sm-2" placeholder="Hasło"> 
+        <button type="submit" class="btn btn-sm my-1 btn-secondary loginn">Zaloguj</button>
+      </form></div>
+    </div>
+  </nav>
+</div>
+ <script>
+$(document).ready(function(){
+  $(".loginn").click(function(){
+    alert("Nie znaleziono takiego konta.");
+  });
+});
+</script>
+
+
+<body>
+
+  <!---banner -->
+
+<div class="banner">
+  
+  <div class="container">
+   <h3> Nowe Media i Kultura Cyfrowa</h3>
+   <div class="row align-items-center text-center h-50">
+   <div class="col-lg-4 col-md-4 col-sm-3 col-lg-offset-3">
+    <a href="https://www.instagram.com/filolog.ul/">
+    
+   </div>
+   <div id="center" class="w-100 align-items-center text-center ml-80" data-ride="carousel">
+      <i class="fab fa-instagram fa-5x mr-4"></i> 
+    </a>
+    
+<a href="https://www.facebook.com/nowemediaikulturacyfrowa/">
+      <i class="fab fa-facebook fa-5x mr-4 "></i>
+    </a>
+   <a href="mailto:kulturoznawstwo@uni.lodz.pl">
+      <i class="fas fa-at fa-5x mr-4 "></i>
+   
+  </div></div></a></div>
+  
+   
+   </div> </p> </div>
+
+<!--- ---->
+  
+  <section id="O kierunku">
+    <div class="container">
+      <div class="row">
+        <h2> O kierunku </h2>
+    </div>
+    <div class="row">
+
+    
+    
+<div class="col-lg-3">
+ <i class="fas fa-location-arrow fa-9x mt-5"></i> 
+   
+ </div>
+<div class="col-lg-8">
+
+ <p class="text-dark">
+  Studia na kierunku NOWE MEDIA I KULTURA CYFROWA pozwalają na uzyskanie wiedzy z zakresu współczesnej kultury rozwijającej się na fundamencie technologii cyfrowych, w szczególności:  historii i teorii mediów, teorii komunikowania, kultury uczestnictwa, Internetu i mediów społecznych, historii i teorii i gier komputerowych, sztuki nowych mediów, przemysłów kreatywnych.
+</p>
+ <p class="text-dark">
+Zajęcia praktyczne kształcą umiejętności pracy w środowiskach cyfrowych (posługiwanie się wybranymi narzędziami informatycznymi, projektowanie stron internetowych, publikowanie w Sieci), krytyki sztuki, przygotowywania wystaw sztuki nowych mediów, analizy, krytyki i projektowania reguł gier komputerowych, organizacji i animacji kultury.
+</p>
+ <p class="text-dark">
+Studenci nabywają także podstawowej wiedzy w zakresie filozofii, teorii kultury i wiedzy o sztuce oraz poetyki filmu.
+</p>
+ <p class="text-dark">
+Istotnym aspektem programu kształcenia jest możliwość wyboru specjalizacji (Gry komputerowe; Media społeczne lub Sztuka nowych mediów) oraz różnych przedmiotów fakultatywnych, pozwalających na rozszerzanie i uzupełnianie wiedzy. Studenci mają możliwość tworzenia własnych ścieżek kształcenia, odpowiadających ich zainteresowaniom oraz planom zawodowym.
+
+</p>
+</div>
+</div></div>
+  <header class="banner2">
+  <section id="plan">
+    <div class="container">
+      
+     
+       
+        <h2> Plan zajęć</h2>
+<div class="row align-items-center text-center h-50 mx-auto my-auto">
+  <div class="col-lg-12 col-sm-12 col-md-12 col-lg-offset-2">
+       
+<!--- akordeon !---->
+
+<p>
+  <a class="btn btn-light" data-toggle="collapse" href="#ukryta-tresc" aria-expanded="false" aria-controls="ukryta-tresc">
+    I rok
+  </a>
+  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#ukryta-tresc" aria-expanded="false" aria-controls="ukryta-tresc">
+    II rok
+  </button>
+  <a class="btn btn-light" data-toggle="collapse" href="#ukryta-tresc" aria-expanded="false" aria-controls="ukryta-tresc">
+    III rok
+  </a>
+</p>
+<div class="collapse" id="ukryta-tresc">
+  <div class="card card-body">
+    <strong>Plan dostępny pod <a href="http://ikw.uni.lodz.pl/wp-content/uploads/2020/02/ROZK%C5%81AD-ZAJ%C4%98%C4%86-2019_2020_-LATO-03.pdf" class="card-link">linkiem </a></strong>
+    
+</div></a>
+
+
+</div> </div>
+</section>
+</header>
+
+<!--- specjalizacje !-->
+
+<section id="specjalizacje">
+<div class="container">
+  <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+  <div class="card-group">
+  <div class="card">
+    
+    <div class="card-body">
+      <h5 class="card-title"> 
+    <strong class="text-left"><i class="fas fa-gamepad fa-2x mr-2"></i> Gry wideo</h5></strong> 
+      <p class="card-text text-dark">Poetyka gier wideo; Gamifikacja; Projektowanie reguł gier;Podstawowe pojęcia nowych mediów; Historia mediów; Estetyka nowych mediów; Wprowadzenie do cyberkultury; Publikowanie w Internecie; Historia i rodzaje gier komputerowych; Sztuka nowych mediów – teorie i praktyki; Organizacja i zarządzanie kulturą w dobie nowych mediów</p>
+    </div>
+  </div>
+  <div class="card">
+  
+    <div class="card-body">
+      <h5 class="card-title"><i class="fas fa-hashtag fa-2x "></i> <strong class="text-left">Media społeczne </h5></strong>
+      <p class="card-text text-dark">Analiza praktyk komunikacyjnych w mediach społecznych; Reklama i marketing cyfrowy; Przemysły kreatywne i zarządzanie projektami;Podstawowe pojęcia nowych mediów; Historia mediów; Estetyka nowych mediów; Wprowadzenie do cyberkultury; Publikowanie w Internecie; Historia i rodzaje gier komputerowych; Sztuka nowych mediów – teorie i praktyki; Organizacja i zarządzanie kulturą w dobie nowych mediów</p>
+    </div>
+  </div>
+  <div class="card">
+  
+    <div class="card-body">
+      <h5 class="card-title"> <i class="fas fa-palette fa-2x "></i><strong class="text-left">Sztuka nowych mediów  </h5> </strong>
+      <p class="card-text text-dark">Analiza i krytyka sztuki nowych mediów; Praktyki kuratorskie w sztuce nowych mediów; Nowe media w sztukach performatywnych; Podstawowe pojęcia nowych mediów; Historia mediów; Estetyka nowych mediów; Wprowadzenie do cyberkultury; Publikowanie w Internecie; Historia i rodzaje gier komputerowych; Sztuka nowych mediów – teorie i praktyki; Organizacja i zarządzanie kulturą w dobie nowych mediów</p>
+    </div></div>
+  </div>
+</div>
+</div></div></div></section></header></section></div></div>
+</section>
+
+
+<!------ karuzela------>
+
+<header class="bannner">
+  <section id="karuzel">
+    <div class="container">
+
+      
+
+ <h2 class="text-light">Władze Instytutu </h2>
+
+</div>
+
+
+  <div id="karuzela" class="carousel slide row align-items-center text-center h-50" data-ride="carousel">
+    
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+       
+          <h4 class="text-light">Dyrektor Instytutu </h4>
+          <p> dr hab., prof. UŁ Piotr Sitarski
+piotr.sitarski@uni.lodz.pl</p>
+          
+       
+      
+      </div>
+      <div class="carousel-item">
+         
+          <h4 class="text-light">Z-ca Dyrektora Instytutu</h4>
+          <p> dr hab. Agnieszka Gawron
+agnieszka.gawron@uni.lodz.pl</p>
+      
+      </div>
+    
+ <div class="carousel-item">
+         
+          <h4 class="text-light">Kierownik Katedry Mediów i Kultury Audiowizualnej</h4>
+         <p> dr hab. prof. UŁ Piotr Sitarski
+piotr.sitarski@uni.lodz.pl</p>
+
+
+      </div>
+
+
+ </div>
+    
+ <div class="carousel-item">
+         
+          <h4 class="text-light">Kierownik Zakładu Mediów Elektronicznych</h4>
+         <p> prof. dr hab. Ryszard W. Kluszczyński
+rwk@uni.lodz.pl</p>
+
+
+
+
+
+
+      
+      </div>
+
+
+
+
+
+<a class="carousel-control-prev" href="#karuzela" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Poprzedni</span>
+    </a>
+    <a class="carousel-control-next" href="#karuzela" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Następny</span>
+    </a>
+  </div>
+
+
+
+
+
+
+      
+   </div></section></header>
+
+
+
+
+
+
+
+<!---------- >
+ 
+    
+   <!-- stopka -->
+   
+<section id="footer">
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mt-md-0 mt-3">
+
+        <!-- Content -->
+       <h6 class="text-uppercase col-lg-3 text-dark">Kontakt</h6>
+        <p class="text-dark">Instytut Kultury Współczesnej UŁ
+ul. Pomorska 171/173, pok. 3.13, 90-236 Łódź
+ kulturoznawstwo@uni.lodz.pl</p>
+
+      </div>
+      <!-- Grid column -->      
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+      
+        <!-- Links -->
+        <h6 class="text-uppercase text-dark">Źródła zdjęć</h6>
+
+        <ul class="list-unstyled">
+          <li>
+            <a class="text-dark" href="https://www.giantbomb.com/profile/bushpusherr/blog/graphics-blog-fast-fourier-terrain-generation/105554/">Link 1</a>
+          </li>
+          <li>
+            <a class="text-dark bor" href="https://wallpaperaccess.com/full/1682023.jpg">Link 2</a>
+          </li>
+          <li>
+            <a class="text-dark" href="https://i.pinimg.com/originals/81/6d/81/816d81da00f198ebd81e5f5ee23ad6b3.png"> Link 3</a>
+
+          </li>
+
+ 
+
+
+
+   </div>
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 NIPK:
+    Paulina Kowalczyk
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+   
+ 
+
+</section></header></section></div></div></body></nav> </html>
