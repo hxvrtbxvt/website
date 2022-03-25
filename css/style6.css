@@ -1,0 +1,218 @@
+
+
+
+ 
+html {
+  scroll-behavior: smooth;
+}
+
+
+.banner {
+
+
+
+ background-image: url('https://cdn.hipwallpaper.com/i/57/24/pJtfCb.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 87%;
+
+
+
+}
+
+
+
+h3 {
+	font-family: 'Libre Barcode 128 Text', cursive;
+	color:white;
+	font-size: 70px;
+	text-align: center;
+	 animation-name: anime;
+    animation-duration: 3.5s;
+    
+    
+}
+@keyframes anime {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+
+
+p {
+	font-family: 'Lexend Tera', sans-serif;
+	color:white;
+}
+
+
+
+h2 {
+	font-family: 'Lexend Tera', sans-serif;
+}
+
+
+
+.banner2 {
+	background-image:url(https://wallpaperaccess.com/full/1682023.jpg);
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.fab {
+	color: white;
+	text-align: center;
+	
+}
+
+.fab:hover {
+	opacity: 0.5;
+}
+.banner .fas {
+	color:white;
+	text-align: center;
+}
+
+.banner .fas:hover {
+	opacity: 0.5;
+}
+
+
+.banner2 h2 {
+	color:white ;
+}
+ h5 {
+ 	font-family: 'Lexend Tera', sans-serif;
+ }
+
+
+ strong {
+ 	padding: 30px;
+ 	font-family: 'Lexend Tera', sans-serif;
+ }
+
+ .page-footer {
+ 	background-color:#ffffff;
+ 	width: 100%;
+
+ }
+ 
+ .banner3 p {
+ 	text-align: justify;
+ }
+
+h4 {
+	color:white;
+}
+
+.footer-copyright {
+	color: #999999;
+}
+
+h6 {
+	font-family: 'Lexend Tera', sans-serif;
+	color: white;
+}
+
+#specjalizacje {
+	letter-spacing: -1px;
+}
+
+#ukryta-tresc {
+
+opacity:0.4;
+
+}
+
+.bannner {
+background-image:url(https://wallpaperaccess.com/full/1682023.jpg);
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.form2 {
+	padding-top: 110;
+
+}
+
+.icon2 {
+color:black;
+}
+
+.footer2 {
+	bottom:0;
+
+}
+
+
+.bg {
+	background-image:url(https://i.pinimg.com/originals/81/6d/81/816d81da00f198ebd81e5f5ee23ad6b3.png);
+
+	height: 100%;
+}
+
+
+
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
